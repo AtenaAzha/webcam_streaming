@@ -4,7 +4,8 @@ import time
 
 
 class webcam:
-
+    def __init__(self):
+        pass
     def forpic(self):
         self.cap = cv2.VideoCapture(0)
         self.t0 = time.time()
